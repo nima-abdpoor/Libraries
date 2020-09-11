@@ -12,3 +12,9 @@
 
 # 4-kotlin
 - implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+
+# 5-LiveDage
+- implementation "androidx.lifecycle:lifecycle-livedata:2.2.0"
+
+# 6-ViewModel
+- implementation "androidx.lifecycle:lifecycle-viewmodel:2.2.0"
