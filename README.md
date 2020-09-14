@@ -18,3 +18,9 @@
 
 # 6-ViewModel
 - implementation "androidx.lifecycle:lifecycle-viewmodel:2.2.0"
+
+# 7-Navigation Component
+  def nav_version = "2.3.0"
+  // Java language implementation
+  implementation "androidx.navigation:navigation-fragment:$nav_version"
+  implementation "androidx.navigation:navigation-ui:$nav_version"
