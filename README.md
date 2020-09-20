@@ -32,4 +32,14 @@
     implementation "com.google.dagger:dagger-android:2.x"
     implementation "com.google.dagger:dagger-android-support:$dagger_version" // if you use the support libraries
     annotationProcessor "com.google.dagger:dagger-android-processor:$dagger_version"
+ 
+# 9-Material 
+    def material_version = "1.0.0"
+    implementation "com.google.android.material:material:$material_version"
+
+# 10-Glide
+    def glideVersion = "4.9.0"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
+    
     
