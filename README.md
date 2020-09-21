@@ -12,7 +12,11 @@
     
 # 3-rxjava adapter
     def rxAdapter_version = "2.5.0"
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:$rxAdapter_version'
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rxAdapter_version"
+
+# 3-Reactive Streams (convert Observable to LiveData)
+    def reactivestreams_version = "1.1.1"
+    implementation "android.arch.lifecycle:reactivestreams:$reactivestreams_version"
 
 # 4-kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
