@@ -9,6 +9,10 @@
 
 # 3-rxandroid
     implementation "io.reactivex.rxjava3:rxandroid:3.0.0"
+    
+# 3-rxjava adapter
+    def rxAdapter_version = "2.5.0"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:$rxAdapter_version'
 
 # 4-kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
